@@ -12,6 +12,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Josh's script step
+        run: echo "Hello Actions!"
+    
       - name: Checkout repository
         uses: actions/checkout@v3
 
