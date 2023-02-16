@@ -13,7 +13,7 @@ jobs:
 
     steps:
       - name: Josh's script step
-        run: echo "Hello Actions!"
+        run: echo "Hello Actions 2!"
     
       - name: Checkout repository
         uses: actions/checkout@v3
